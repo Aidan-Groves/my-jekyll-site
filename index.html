@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alialytics</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -16,18 +16,22 @@
                 <li>
                     <a href="about.html">about</a>
                 </li>
-                <li>
-                    <a href="blog.html">blog</a>
-                </li>
             </ul>
-
         </div>
     </nav>
+
     <h1>Welcome to Alialytics</h1>
     <p>Exploring baseball analytics and more!</p>
+
+    <!-- Angular App Root -->
+    <div id="blog">
+        <app-root></app-root>
+    </div>
+
+    <!-- Angular Scripts -->
+    <script src="assets/blog-app/runtime.js"></script>
+    <script src="assets/blog-app/polyfills.js"></script>
+    <script src="assets/blog-app/main.js"></script>
+    
 </body>
-
-
-
-
 </html>
